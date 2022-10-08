@@ -1,0 +1,25 @@
+Package: edatoolsmkh
+Title: Functions for Exploratory Data Analysis mkh version
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Melinda", 
+           family = "Higgins", , 
+           email = "melinda.higgins@emory.edu", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6579-5885"))
+Description: This package contains functions for
+    exploratory data analysis. It ia a demonstration
+    package for the book R in Action (3rd ed.).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    ggplot2
