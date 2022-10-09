@@ -1,0 +1,38 @@
+---
+title: "A first example doc"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{A first example doc}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(edatoolsmkh)
+```
+
+## Example explaining a dataset
+
+Let's look at the `penguins` dataset from the `palmerpenguins` package.
+
+```{r}
+library(palmerpenguins)
+contents(penguins)
+```
+
+## look at the plot
+
+```{r}
+dfc <- contents(penguins)
+plot(dfc)
+```
+

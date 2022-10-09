@@ -1,6 +1,7 @@
 Package: edatoolsmkh
 Title: Functions for Exploratory Data Analysis mkh version
 Version: 0.0.0.9000
+Date: 2022-10-09
 Authors@R: 
     person(given = "Melinda", 
            family = "Higgins", , 
@@ -23,3 +24,4 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     ggplot2
+URL: https://melindahiggins2000.github.io/edatoolsmkh/
